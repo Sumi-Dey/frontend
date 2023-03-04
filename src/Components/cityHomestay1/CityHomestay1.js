@@ -13,7 +13,19 @@ const settings = {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        initialSlide:0,
+        responsive: [
+          {
+            breakpoint: 375,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+        ]
       };
       const [data,setData] = useState([]);
       const getApi = async ()=>{
@@ -23,8 +35,9 @@ const settings = {
       useEffect(()=>{
         getApi()
       },[])
+      console.log(data)
   return (
-    <div>
+    <>
       {!data?("Loading"):(<>
     <div className='cityhomestay1'>
       <Slider {...settings} >
@@ -46,7 +59,7 @@ const settings = {
       </Slider>
     </div>
     </>)}
-    </div>
+    </>
   )
 }
 
