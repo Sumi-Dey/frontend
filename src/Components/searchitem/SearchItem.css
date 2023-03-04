@@ -1,0 +1,103 @@
+.srItem{
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #999292;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.srImg{
+    width: 13rem;
+}
+.srItemDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.srTitle{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1b1a1a;
+    text-transform: uppercase;
+}
+.srDistance{
+    font-size:12px;
+}
+.srTaxi{
+    background-color: #379237;
+    width: max-content;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    padding: 3.5px;
+}
+.srSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.srFeatures{
+    font-size: 13px;
+}
+.srCancelOp{
+    font-size: 13px;
+    color: #379237;
+    font-weight: bold;
+}
+.srReview{
+    font-size: 11.5px;
+    color: #379237;
+    font-weight: 600;
+}
+.srRating{
+    display: flex;
+    justify-content: space-between;
+}
+.srpricedtails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.srRating span button{
+    background-color: #1b1a1a;
+    border: none;
+    color: white;
+}
+.priceDetails{
+    text-align: right;
+}
+.srPrice{
+    font-size: 20px;
+    font-weight: 600;
+}
+.srTax{
+    font-size: 12px;
+}
+
+/* RESPONSIVE *************************************/
+@media screen and (max-width:768px) {
+    .srImg{
+        width: 10.7rem;
+    }
+    .srItemDetails{
+        gap: 3px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .srItem{
+        flex-wrap: wrap;
+    }
+    .srImg{
+        width: 15.6rem;
+    }
+}
+@media screen and (max-width:375px) {
+    .srImg{
+        width: 12.4rem;
+    }
+}
+@media screen and (max-width:320px) {
+    .srImg{
+        width: 9.3rem;
+    }
+}

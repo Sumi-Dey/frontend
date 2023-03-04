@@ -1,0 +1,44 @@
+.mainContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/* .container{
+    width: 100%;
+    max-width: 1089px;  
+    align-items: center;
+} */
+.container1 {
+    width: 100%;
+    max-width: 974px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homestaysTitle {
+    text-align: left;
+    margin-top: 45px;
+}
+
+/* @media screen and (max-width:1440px) {
+    .container1{
+        margin: 2.5rem 0 0 5.4rem;
+    }
+}
+@media screen and (max-width:1024px) {
+ .container1{
+    margin: 2.5rem 0 0 1.8rem;
+ }
+}
+
+@media screen and (max-width:768px) {
+    .container1 {
+        margin: 2.5rem 0 0 2.8rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .container1 {
+        margin: 5.1rem 0 0 1.6rem;
+    }
+} */

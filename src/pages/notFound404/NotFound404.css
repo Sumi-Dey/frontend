@@ -1,0 +1,26 @@
+.not-found{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    background-color: #a688262e;
+    font-family: 'Merriweather', serif; ;
+}
+.err404{
+    font-size: 5em;
+}
+.msg{
+    font-size: 3em;
+    text-align: center;
+}
+.err-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #a68826;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+}
