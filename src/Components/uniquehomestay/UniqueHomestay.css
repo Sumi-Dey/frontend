@@ -33,6 +33,9 @@ h5{
     }
 }
 @media screen and (max-width:425px){
+    .uniquehomestay{
+        gap: 10.9px;
+    }
     .unique-card-img{
         width: 6rem;
         height: 7.7rem;

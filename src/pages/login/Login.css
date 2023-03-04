@@ -1,16 +1,11 @@
 .login{
     display: flex;
-    /* flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    margin: 2.5rem 0;
-    position: relative; */
 }
 .left-login{
     flex: 1;
 }
 .left-login>img{
-    width: 390px;
+    width: 345px;
     padding: 60px 120px;
 }
 .right-login{
@@ -44,7 +39,6 @@ input:focus{
     border-radius: 8px;
 }
 .signtxt{
-    width: 27.6rem;
     font-size: 12.8px;
     color: gray;
     text-align: center;
@@ -61,4 +55,27 @@ hr{
     font-size: 11.9px;
     color: gray;
     text-align: center;
+}
+
+/* RESPONSIVE ***************************************/
+
+@media screen and (max-width:768px) {
+    .left-login>img {
+        width: 205px;
+        padding: 110px 60px;
+    }
+}
+@media screen and (max-width:768px) {
+    .left-login>img {
+        width: 265px;
+    }
+    .login{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:320px) {
+    .left-login>img{
+        width: 204.3px;
+    }
 }

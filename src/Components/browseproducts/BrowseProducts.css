@@ -1,150 +1,64 @@
-.browseProducts{
+
+.unique-card-img{
+    width: 14.3rem;
+    height: 12rem;
+    border-radius: 4px;
+}
+.unique-card{
+    box-shadow:0 12.2px 13px 9.4px rgb(243 232 232);
+}
+.unique-card:hover{
+    /* border: 2px solid gray;    */
+    box-shadow:0 12.2px 13px 9.4px rgb(185 179 179);
+}
+.topMargin{
+    margin-top: -37px;
+}
+.uniquehomestay{
     display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+    gap: 15px;
 }
-.browseImg{
-    width: 315.6px;
-    height: 200px;
-}
-.browseProducts>div{
-    position: relative;
-}
-.cat{
-    position: absolute;
-    top: 120px;
-    color: white;
-    left: 54px;
-    font-size: 20px;
+h5{
+    font-size: 18.5px;
 }
 
-/* 
+/* RESPONSIVE ********************************/
 
-.browseProducts {
-    display: flex;
-    flex-direction: column;
-    gap: 11.8px;
-}
-
-.upper {
-    display: flex;
-    gap: 11.8px;
-}
-
-.upper div {
-    position: relative;
-}
-
-.upper div img {
-    width: 29.5rem;
-    height: 15.3rem;
-}
-
-.upper div div {
-    position: absolute;
-    top: 10.2rem;
-    left: 6rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: 'Merriweather', serif;
-    color: white;
-}
-
-
-.lower {
-    display: flex;
-    gap: 11.8px;
-}
-
-.lower div img {
-    width: 19.5rem;
-    height: 10rem
-}
-
-.lower div {
-    position: relative;
-}
-
-.lower div div {
-    position: absolute;
-    top: 6.8rem;
-    left: 4.3rem;
-    font-size: 17.5px;
-    font-weight: bold;
-    font-family: 'Merriweather', serif;
-    color: white;
-}
-
-
-@media screen and (max-width: 768px) {
-    .upper div img {
-        width: 23.5rem;
+@media screen and (max-width:768px){
+    .unique-card-img{
+        width: 11.3rem;
     }
-
-    .upper div div {
-        left: 3.5rem;
-    }
-
-    .lower div img {
-        width: 15.5rem;
-    }
-
-    .lower div div {
-        left: 1.3rem;
+    .unique-card-title{
+        font-size:16.4px
     }
 }
-
-@media screen and (max-width: 425px) {
-    .upper div img {
-        width: 12.9rem;
-        height: 8.4rem;
+@media screen and (max-width:425px){
+    .uniquehomestay{
+        gap: 10.9px;
     }
-
-    .upper div div {
-        top: 4.7rem;
-        left: 1.4rem;
-        font-size: 1rem;
+    .unique-card-img{
+        width: 6rem;
+        height: 7.7rem;
     }
-
-    .lower div img {
-        width: 8.4rem;
-        height: 6.8rem;
-    }
-
-    .lower div div {
-        font-size: 14.7px;
-        top: 2.8rem;
+    .unique-card-title{
+        font-size:13.5px
     }
 }
-
-@media screen and (max-width: 375px) {
-    .upper {
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width:375px){
+    .uniquehomestay{
+        flex-wrap: wrap;
+        padding-left: 30.2px;
     }
-
-    .upper div img {
-        width: 19.8rem;
-        height: 11.3rem;
-        border-radius: 6.5px;
+    .unique-card-img {
+        width: 9.5rem;
+        height: 9.3rem;
     }
-
-    .upper div div {
-        top: 7.7rem;
-        font-size: 1.4rem;
+}
+@media screen and (max-width:320px){
+    .uniquehomestay{
+        padding-left: 3px;
     }
-    .lower {
-        flex-direction: column;
-        align-items: center;
+    .unique-card-img{
+        width: 9.3rem;
     }
-    .lower div img {
-        width: 19.8rem;
-        height: 11.3rem;
-        border-radius: 6.5px;
-    }
-    .lower div div {
-        top: 7.7rem;
-        font-size: 1.4rem;
-    }
-
-}  */
+}

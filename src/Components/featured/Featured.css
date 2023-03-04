@@ -42,12 +42,8 @@
 }
 
 @media screen and (max-width:425px) {
-
-    /* .featured{
-        display: block;
-    } */
     .featuredImage img {
-        width: 8.2rem;
+        width: 7.9rem;
     }
 
     .featuredTitle {
