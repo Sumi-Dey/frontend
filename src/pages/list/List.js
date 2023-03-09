@@ -53,11 +53,11 @@ const List = () => {
               <div className='options'>
               <div className='optionItem'>
                   <span>Max Price Per Night</span>
-                  <input type='number' className='inputOption' onChange={(e)=>setMin(e.target.value)} />
+                  <input type='number' className='inputOption' onChange={(e)=>setMax(e.target.value)} />
                 </div>
                 <div className='optionItem'>
                   <span>Min Price Per Night</span>
-                  <input type='number' className='inputOption' onChange={(e)=>setMax(e.target.value)} />
+                  <input type='number' className='inputOption' onChange={(e)=>setMin(e.target.value)} />
                 </div>
                 <div className='optionItem'>
                   <span>Adult</span>
