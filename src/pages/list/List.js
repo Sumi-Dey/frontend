@@ -19,12 +19,12 @@ const List = () => {
   const [max,setMax] = useState(undefined);
   const [data,setData] = useState([]);
   const getApi = async ()=>{
-    const data =  await instance.get(`/hotel/getByCategory?city=${destination}&min=${min}&max=${max}`)
+    const data =  await instance.get(`/hotel/getHotelByFilter?city=${destination}&min=${min || 0 }&max=${max || 99999999}`)
     setData(data?.data)
   }
   useEffect(()=>{
     getApi()
-  },[])
+  },[data])
   const handleClick = ()=>{
     getApi()
   }
