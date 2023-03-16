@@ -2,6 +2,7 @@
     width: 100%;
     height: 30rem;
     position: relative;
+    object-fit: cover;
 }
 
 .expolreCoverText {
@@ -177,8 +178,7 @@
         font-size: 19.3px;
     }
 }
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:912px) {
     .expolreCoverText {
         left: 8.8rem;
     }
@@ -194,10 +194,9 @@
     .hawamahal,
     .kanchanjangha,
     .lalbagh {
-        width: 363.9px;
+        width: 437.1px;
         height: 252px;
     }
-
     .exploredCities>div:nth-child(6)>div {
         left: 5rem;
         top: 9.5rem;
@@ -232,6 +231,21 @@
         font-size: 20.5px;
     }
 
+
+}
+@media screen and (max-width:768px) {
+    .expolreCoverText {
+        left: 8.8rem;
+    }
+
+    .charminar,
+    .dudhsagar,
+    .goldtemp,
+    .hawamahal,
+    .kanchanjangha,
+    .lalbagh {
+        width: 363.9px;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -250,6 +264,26 @@
         height: 252px;
     }
 }
+@media screen and (max-width:414px) {
+    .charminar,
+    .dudhsagar,
+    .goldtemp,
+    .hawamahal,
+    .kanchanjangha,
+    .lalbagh {
+        width: 388.3px;
+    }
+}
+@media screen and (max-width:393px) {
+    .charminar,
+    .dudhsagar,
+    .goldtemp,
+    .hawamahal,
+    .kanchanjangha,
+    .lalbagh {
+        width: 370.9px;
+    }
+}
 @media screen and (max-width:375px) {
     .expolreCoverText {
         font-size: 28.2px;
@@ -263,6 +297,25 @@
     .lalbagh {
         width: 357px;
         height: 252px;
+    }
+    .exploredCities>div:nth-child(1)>div {
+        left: 4.7rem;
+    }
+    .exploredCities>div:nth-child(3)>div {
+        left: 1.9rem;
+    }
+    .exploredCities>div:nth-child(4)>div {
+        left: 6rem;
+    }
+}
+@media screen and (max-width:360px) {
+    .charminar,
+    .dudhsagar,
+    .goldtemp,
+    .hawamahal,
+    .kanchanjangha,
+    .lalbagh {
+        width: 337.5px;
     }
 }
 @media screen and (max-width:320px) {
@@ -286,7 +339,7 @@
         left: 1.5rem;
     }
     .exploredCities>div:nth-child(4)>div{
-        left: 4.2;
+        left: 4.2rem;
     }
     .exploredCities>div:nth-child(3)>div{
         left: 0.1rem;
@@ -294,4 +347,27 @@
     .exploredCities>div:nth-child(2)>div{
         left: 3rem;
     }
+}
+
+@media screen and (max-width: 280px){
+.charminar, .dudhsagar, .goldtemp, .hawamahal, .kanchanjangha, .lalbagh {
+    width: 260.9px;
+    height: 238.9px;
+}
+.exploredCities>div:nth-child(2)>div {
+    left: 1.6rem;
+}
+.exploredCities>div:nth-child(3)>div {
+    left: 3.8rem;
+}
+.exploredCities>div:nth-child(4)>div {
+    left: 2.8rem;
+}
+.exploredCities>div:nth-child(5)>div {
+    left: 0.2rem;
+    text-align: center;
+}
+.exploredCities>div:nth-child(6)>div {
+    left: 2.6rem;
+}
 }

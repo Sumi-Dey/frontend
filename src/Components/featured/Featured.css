@@ -11,6 +11,7 @@
 
 .featuredImage img {
     width: 19.4rem;
+    object-fit: cover;
 }
 
 .featuredTitle {
@@ -30,10 +31,14 @@
     font-size: 17px;
     font-family: 'Merriweather', serif;
 }
-
+@media screen and (max-width:912px) {
+    .featuredImage img{
+        width: 17.4rem;
+    }
+}
 @media screen and (max-width:768px) {
     .featuredImage img {
-        width: 15.3rem;
+        width: 14.5rem;
     }
 
     .featuredTitle {
@@ -41,11 +46,13 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:600px) {
     .featuredImage img {
-        width: 7.9rem;
+        width: 7.6rem;
     }
-
+    .featured{
+        gap: 10px;
+    }
     .featuredTitle {
         top: 4.1rem;
     }
@@ -58,7 +65,29 @@
         font-size: 13.4px;
     }
 }
-
+@media screen and (max-width:540px){
+    .featuredImage img{
+        width: 10rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .featuredImage img{
+        width: 7.6rem;
+    }
+}
+@media screen and (max-width: 412px){
+    .featuredImage img{
+        width: 7.4rem;
+    }
+}
+@media screen and (max-width: 393px){
+    .featuredImage img {
+        width: 6.9rem;
+    }
+    .featuredTitle {
+        top: 3.5rem;
+    }
+}
 @media screen and (max-width:375px) {
     .featured {
         flex-direction: column;
@@ -78,5 +107,19 @@
     
     .featuredTitle span:nth-of-type(2) {
         font-size: 17px;
+    }
+}
+@media screen and (max-width:320px){
+    .featuredImage img {
+        width: 17.9rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .featuredImage img {
+        width: 15rem;
+    }
+    .featuredTitle {
+        top: 8.9rem;
     }
 }

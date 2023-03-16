@@ -3,10 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 0.5rem; */
     background-color: #1b1a1a;
     padding: 5px 64.1px;
-    /* z-index: 998; */
 }
 .left-nav{
     color: white;

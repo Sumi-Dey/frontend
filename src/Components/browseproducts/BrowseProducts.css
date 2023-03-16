@@ -7,6 +7,7 @@
 .browseImg {
     width: 315.6px;
     height: 200px;
+    object-fit: cover;
 }
 
 .browseProducts>div {
@@ -21,35 +22,90 @@
     font-size: 20px;
 }
 
+/* RESPONSIVE *************************************/
+
+@media screen and (max-width:912px) {
+    .browseImg {
+        width: 280.9px;
+    }
+}
 
 @media screen and (max-width: 768px) {
-.browseImg{
-    width: 361.5px;
-}
-}
-@media screen and (max-width: 425px) {
-    .browseProducts{
-        flex-wrap:unset;
-        flex-direction: column;
-        align-items: center;
-    }
-.browseImg {
-        width: 390px;
-        height: 223.4px;
+    .browseImg {
+        width: 358px;
     }
     .cat{
-        left: 105px;
+        left: 33px;
     }
 }
-@media screen and (max-width: 375px){
-    
-.browseImg {
-    width: 320.2px;
-    height: 223.4px;
-    /* margin-left: 22px; */
-   }
-   .cat{
-    left: 75px;
-   }
+
+@media screen and (max-width: 540px) {
+    .browseImg {
+        width: 244px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .browseProducts {
+        gap: 8.8px;
+    }
+
+    .browseImg {
+        width: 188.1px;
+        height: 163.4px;
+    }
+
+    .cat {
+        left: 20px;
+        top: 108.8px;
+        font-size: 13.6px;
+    }
+}
+@media screen and (max-width: 414px){
+    .browseImg{
+        width: 182.6px;
+    }
+}
+@media screen and (max-width: 412px){
+    .browseImg{
+        width: 181.6px;
+    }
+}
+@media screen and (max-width: 393px) {
+    .browseImg{
+        width: 170.6px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .browseImg {
+        width: 328.6px;
+        height: 206.4px;
+        border-radius: 5px;
+    }
+
+    .cat {
+        left: 37px;
+        font-size: 23.2px;
+    }
 }
 
+@media screen and (max-width: 320px) {
+    .browseImg {
+        width: 280.5px;
+    }
+
+    .cat {
+        top: 133.4px;
+        left: 32.9px;
+        font-size: 19.4px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .browseImg {
+        width: 239.3px;
+    }
+
+    .cat {
+        left: 22.9px;
+    }
+}

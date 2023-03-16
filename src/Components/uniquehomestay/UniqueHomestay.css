@@ -3,6 +3,7 @@
     width: 14.3rem;
     height: 12rem;
     border-radius: 4px;
+    object-fit: cover;
 }
 .unique-card{
     box-shadow:0 12.2px 13px 9.4px rgb(243 232 232);
@@ -23,35 +24,52 @@ h5{
 }
 
 /* RESPONSIVE ********************************/
-
+@media screen and (max-width:912px){
+    .unique-card-img{
+        width: 12.8rem;
+    }
+}
 @media screen and (max-width:768px){
     .unique-card-img{
-        width: 11.3rem;
+        width: 10.6rem;
     }
     .unique-card-title{
         font-size:16.4px
     }
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:540px){
     .uniquehomestay{
-        gap: 10.9px;
+        flex-wrap: wrap;
     }
     .unique-card-img{
-        width: 6rem;
-        height: 7.7rem;
+        width: 15.1rem;
     }
-    .unique-card-title{
-        font-size:13.5px
+}
+@media screen and (max-width:425px){
+    
+    .unique-card-img {
+        width: 11.5rem;
+    }
+}
+@media screen and (max-width:414px){
+    .unique-card-img {
+        width: 10.8rem;
+    }
+}
+@media screen and (max-width:393px){
+    .unique-card-img {
+        width: 10.4rem;
     }
 }
 @media screen and (max-width:375px){
-    .uniquehomestay{
-        flex-wrap: wrap;
-        padding-left: 30.2px;
-    }
     .unique-card-img {
-        width: 9.5rem;
+        width: 9.8rem;
         height: 9.3rem;
+    }
+}
+@media screen and (max-width:360px){
+    .unique-card-img {
+        width: 9.3rem;
     }
 }
 @media screen and (max-width:320px){
@@ -59,6 +77,11 @@ h5{
         padding-left: 3px;
     }
     .unique-card-img{
-        width: 9.3rem;
+        width: 17.4rem;
+    }
+}
+@media screen and (max-width:280px){
+    .unique-card-img{
+        width: 14.6rem;
     }
 }

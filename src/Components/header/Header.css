@@ -6,6 +6,7 @@
 .coverpic img {
     width: 100%;
     height: 34.3rem;
+    object-fit: cover;
 }
 
 .header {
@@ -124,6 +125,13 @@
     }
 }
 
+@media screen and (max-width:912px) {
+    .searchItems {
+        left: 2.1rem;
+        width: 51.4rem;
+    }
+}
+
 @media screen and (max-width:768px) {
     .searchItems {
         left: 3rem;
@@ -131,37 +139,14 @@
     }
 }
 
-@media screen and (max-width:425px) {
-    .headline {
-        left: 2rem;
-    }
-
-    .headline p:nth-of-type(1) {
-        font-size: 2.6rem;
-    }
-
-    .searchItems {
-        left: 0.2rem;
-        width: 25.6rem;
-        top: 31.5rem;
-        height: 3.7rem;
-    }
-
-    .date {
-        left: 4.7rem;
-    }
-    
-
-}
-
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
     .headline p:nth-of-type(1) {
         font-size: 2rem;
         line-height: 4.7rem;
     }
 
     .searchItems {
-        left: 1.4rem;
+        left: 2.9rem;
         width: 20.2rem;
         top: 27.7rem;
         padding: 5px 0;
@@ -169,6 +154,35 @@
         display: flex;
         flex-direction: column;
         gap: 7px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .searchItems {
+        left: 6.2rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .searchItems {
+        left: 2.7rem;
+    }
+
+    .headline {
+        top: 5.2rem;
+        left: 1.9rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .searchItems {
+        left: 1.4rem;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .searchItems {
+        left: 1.4rem;
     }
 }
 
@@ -191,4 +205,11 @@
         left: 1rem;
         width: 17.3rem;
     }
+}
+
+@media screen and (max-width:280px) {
+    .searchItems {
+        width: 14.7rem;
+    }
+
 }
